@@ -19,9 +19,7 @@ def getIP( ):
 	s.close( )  
 	return addr 
 
-
 address = ( getIP( ), 5000 )   
-
 
 class basicTCP: 
 	running     = True 
