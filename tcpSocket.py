@@ -21,6 +21,7 @@ def getIP( ):
 
 address = ( getIP( ), 5000 )   
 
+
 class basicTCP: 
 	running     = True 
 	has_connect = False 
