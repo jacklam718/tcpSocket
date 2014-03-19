@@ -36,7 +36,7 @@ class basicTCP:
             while True:
                 buffer = self.socket.recv( self.buffersize )
                 data += buffer 
-                if '\end' in buffer: 
+                if '\e' in buffer:  
                     break      
             return data 
 
