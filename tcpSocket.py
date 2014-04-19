@@ -2,21 +2,6 @@
 from socket import * 
 from threading import Thread
 
-
-def getIP( ):
-    """
-    Get self IP address
-    """
-    s = socket(AF_INET, SOCK_DGRAM)
-    s.connect(('www.google.com', 80))
-    addr = s.getsockname( )[0]  
-    s.close( )  
-    return addr 
-
-
-address = ( getIP( ), 5000 )   
-
-
 class basicTCP: 
     running     = True 
     has_connect = False 
