@@ -1,4 +1,6 @@
-#!/usr/bin/python
+#!/usr/bin/env python
+# --*--coding: utf-8 --*--
+
 from socket import * 
 from threading import Thread
 
